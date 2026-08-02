@@ -147,4 +147,17 @@ echo "Verificando dependências Python..."
 python/venv/bin/pip install -r python/requirements.txt
 
 echo "Dependências Python verificadas."
+echo ""
+
+echo "Compilando ATLAS..."
+
+mvn clean package
+
+if [ $? -eq 0 ]
+then
+    echo "ATLAS compilada com sucesso."
+else
+    echo "Erro ao compilar ATLAS."
+    exit 1
+fi
 echo "Verificação inicial concluída."
