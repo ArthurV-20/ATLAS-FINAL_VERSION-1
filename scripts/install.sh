@@ -126,4 +126,25 @@ then
 else
     echo "FFmpeg não encontrado."
 fi
+echo ""
+
+echo "Verificando ambiente Python..."
+
+if [ -d "python/venv" ]
+then
+    echo "Ambiente virtual encontrado."
+else
+    echo "Criando ambiente virtual..."
+
+    python3 -m venv python/venv
+
+    echo "Ambiente virtual criado."
+fi
+echo ""
+
+echo "Verificando dependências Python..."
+
+python/venv/bin/pip install -r python/requirements.txt
+
+echo "Dependências Python verificadas."
 echo "Verificação inicial concluída."
