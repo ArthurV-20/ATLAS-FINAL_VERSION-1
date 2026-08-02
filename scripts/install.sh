@@ -90,4 +90,40 @@ check_model "qwen2.5:7b"
 echo ""
 
 echo "Verificação de modelos concluída."
+echo ""
+
+echo "Verificando Python..."
+
+if command -v python3 &> /dev/null
+then
+    PYTHON_VERSION=$(python3 --version)
+    echo "Python encontrado:"
+    echo "$PYTHON_VERSION"
+else
+    echo "Python não encontrado."
+fi
+echo ""
+
+echo "Verificando pip..."
+
+if command -v pip3 &> /dev/null
+then
+    PIP_VERSION=$(pip3 --version)
+    echo "pip encontrado:"
+    echo "$PIP_VERSION"
+else
+    echo "pip não encontrado."
+fi
+echo ""
+
+echo "Verificando FFmpeg..."
+
+if command -v ffmpeg &> /dev/null
+then
+    FFMPEG_VERSION=$(ffmpeg -version | head -n 1)
+    echo "FFmpeg encontrado:"
+    echo "$FFMPEG_VERSION"
+else
+    echo "FFmpeg não encontrado."
+fi
 echo "Verificação inicial concluída."

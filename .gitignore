@@ -43,3 +43,6 @@ target/
 
 # Áudios de teste
 *.wav
+
+# Python virtual environment
+python/venv/
