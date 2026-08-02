@@ -1,0 +1,1114 @@
+/*=========================================================
+                ATLAS NEXUS - STYLE.CSS
+                PART 1/3
+=========================================================*/
+
+/*=========================================================
+                    ROOT
+=========================================================*/
+
+.root{
+
+    -fx-background-color:#05070B;
+
+}
+
+
+/*=========================================================
+                    PALETA
+=========================================================*/
+
+/*
+
+===========================
+ATLAS CORE
+===========================
+
+Principal.......#00D2FF
+Glow............#00FFFF
+Secundária......#009BC2
+Linhas..........#004E67
+Texto...........#B6D9E7
+
+===========================
+ATLAS NEXUS
+===========================
+
+Principal.......#B36CFF
+Glow............#D59CFF
+Secundária......#8747FF
+Linhas..........#47315F
+Texto...........#D7C4F4
+
+===========================
+ESTADOS
+===========================
+
+ONLINE..........#32CD32
+PROCESSANDO.....#FFB000
+ERRO............#FF4A4A
+
+*/
+
+
+/*=========================================================
+                    TOP BAR
+=========================================================*/
+
+.top-bar{
+    -fx-pref-height: 44px;
+    -fx-min-height: 44px;
+    -fx-max-height: 44px;
+
+    -fx-padding: 6 20 6 20;
+
+    -fx-background-color: rgba(0,0,0,0.18);
+
+    -fx-border-color: rgba(0,210,255,0.45);
+    -fx-border-width: 0
+}
+
+
+/*=========================================================
+                TÍTULO PRINCIPAL
+=========================================================*/
+
+.top-title{
+
+    -fx-fill:white;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:22;
+
+    -fx-font-weight:bold;
+
+}
+
+
+.top-subtitle{
+
+    -fx-fill:#B36CFF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:12;
+
+    -fx-font-weight:bold;
+
+    -fx-opacity:.95;
+
+}
+
+
+/*=========================================================
+                    MODE BUTTON
+=========================================================*/
+
+.mode-button{
+
+    -fx-background-color:rgba(179,108,255,.08);
+
+    -fx-border-color:#B36CFF;
+
+    -fx-border-radius:5;
+
+    -fx-background-radius:5;
+
+    -fx-text-fill:#D8C2FF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:13;
+
+    -fx-font-weight:bold;
+
+    -fx-padding:8 18;
+
+}
+
+
+.mode-button:hover{
+
+    -fx-background-color:rgba(179,108,255,.18);
+
+    -fx-border-color:#D59CFF;
+
+    -fx-text-fill:white;
+
+}
+
+
+/*=========================================================
+                    VOICE BUTTON
+=========================================================*/
+
+.voice-button{
+
+    -fx-background-color:transparent;
+
+    -fx-border-color:#00D2FF;
+
+    -fx-border-radius:5;
+
+    -fx-background-radius:5;
+
+    -fx-text-fill:#00D2FF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:13;
+
+    -fx-font-weight:bold;
+
+    -fx-padding:8 18;
+
+}
+
+
+.voice-button:hover{
+
+    -fx-background-color:rgba(0,210,255,.08);
+
+    -fx-border-color:#00FFFF;
+
+    -fx-text-fill:#00FFFF;
+
+}
+
+
+/*=========================================================
+                    CLOCK
+=========================================================*/
+
+.hud-clock{
+
+    -fx-fill:#D8C2FF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:16;
+
+}
+
+
+/*=========================================================
+                    SIDEBARS
+=========================================================*/
+
+.left-sidebar,
+.right-sidebar{
+
+    -fx-background-color:transparent;
+
+    -fx-padding:10;
+
+}
+
+
+/*=========================================================
+                    CENTER PANEL
+=========================================================*/
+
+.center-panel{
+
+    -fx-background-color:transparent;
+
+    -fx-padding:2;
+
+}
+
+
+/*=========================================================
+                SIDEBAR TITLES
+=========================================================*/
+
+.section-title{
+
+    -fx-fill:#C7AEFF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:11;
+
+    -fx-font-weight:bold;
+
+    -fx-opacity:.85;
+
+}
+
+
+/*=========================================================
+                SIDEBAR TEXT
+=========================================================*/
+
+.telemetry-text{
+
+    -fx-fill:#A4B8C9;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:12;
+
+}
+
+
+/*=========================================================
+                    NAV BUTTON
+=========================================================*/
+
+.nav-button{
+
+    -fx-background-color:transparent;
+
+    -fx-text-fill:#8FA7B8;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:13;
+
+    -fx-padding:9 14;
+
+    -fx-border-color:transparent;
+
+    -fx-border-width:0 0 0 2;
+
+}
+
+
+.nav-button:hover{
+
+    -fx-background-color:rgba(179,108,255,.08);
+
+    -fx-border-color:#B36CFF;
+
+    -fx-text-fill:#E2D2FF;
+
+}
+
+
+.nav-button:selected{
+
+    -fx-background-color:rgba(179,108,255,.14);
+
+    -fx-border-color:#D59CFF;
+
+    -fx-text-fill:white;
+
+}
+
+
+/*=========================================================
+                    CONSOLE
+=========================================================*/
+
+.console-container{
+
+    -fx-background-color: transparent;
+
+    -fx-background-radius:10;
+
+    -fx-border-radius:10;
+
+    -fx-border-color:rgba(179,108,255,.14);
+
+    -fx-border-width:0;
+
+}
+
+
+.console-header{
+
+    -fx-background-color: transparent;
+
+    -fx-padding:12 16;
+
+    -fx-border-color:
+            transparent
+            transparent
+            rgba(179,108,255,.12)
+            transparent;
+
+    -fx-border-width:0 0 1 0;
+
+}
+
+
+.console-title{
+
+    -fx-text-fill:#CDB3FF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:13;
+
+    -fx-font-weight:bold;
+
+}
+
+
+.console-clear-btn{
+
+    -fx-background-color:transparent;
+
+    -fx-border-color:#5A3D8A;
+
+    -fx-border-radius:4;
+
+    -fx-background-radius:4;
+
+    -fx-text-fill:#9877D4;
+
+    -fx-padding:5 12;
+
+}
+
+
+.console-clear-btn:hover{
+
+    -fx-background-color:rgba(179,108,255,.08);
+
+    -fx-border-color:#B36CFF;
+
+    -fx-text-fill:white;
+
+}
+/*=========================================================
+                ATLAS NEXUS - STYLE.CSS
+                PART 2/3
+=========================================================*/
+
+/*=========================================================
+                CONSOLE SCROLLPANE
+=========================================================*/
+
+.console-text-area{
+
+    -fx-background-color:transparent;
+    -fx-background:transparent;
+    -fx-border-color:transparent;
+    -fx-padding:0;
+
+}
+
+.console-text-area > .viewport{
+
+    -fx-background-color:transparent;
+
+}
+
+.console-text-area .content{
+
+    -fx-background-color:#090B10;
+
+    -fx-padding:14;
+
+}
+
+.console-text-area .corner{
+
+    -fx-background-color:transparent;
+
+}
+
+.console-text-area .scroll-bar{
+
+    -fx-background-color:#090B10;
+
+}
+
+.console-text-area .thumb{
+
+    -fx-background-color:#49356B;
+
+    -fx-background-radius:8;
+
+}
+
+.console-text-area .thumb:hover{
+
+    -fx-background-color:#7E59C9;
+
+}
+
+
+/*=========================================================
+                    BOTTOM INPUT
+=========================================================*/
+
+.bottom-input-container{
+
+    -fx-background-color:transparent;
+
+    -fx-padding:12 28 22 28;
+
+    -fx-spacing:12;
+
+}
+
+
+.comando-input{
+
+    -fx-background-color:rgba(10,12,18,.92);
+
+    -fx-background-radius:8;
+
+    -fx-border-radius:8;
+
+    -fx-border-width:1;
+
+    -fx-border-color:rgba(179,108,255,.40);
+
+    -fx-text-fill:#F3F5F7;
+
+    -fx-prompt-text-fill:#7B7F8D;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:14;
+
+    -fx-padding:14 18;
+
+}
+
+
+.comando-input:focused{
+
+    -fx-border-color:#D59CFF;
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(179,108,255,.18),
+            14,
+            .15,
+            0,
+            0
+    );
+
+}
+
+
+.botao-enviar{
+
+    -fx-background-color:rgba(179,108,255,.10);
+
+    -fx-background-radius:8;
+
+    -fx-border-radius:8;
+
+    -fx-border-color:#B36CFF;
+
+    -fx-border-width:1;
+
+    -fx-text-fill:#DCC9FF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:13;
+
+    -fx-font-weight:bold;
+
+    -fx-padding:14 24;
+
+}
+
+
+.botao-enviar:hover{
+
+    -fx-background-color:rgba(179,108,255,.20);
+
+    -fx-border-color:#D59CFF;
+
+    -fx-text-fill:white;
+
+}
+
+
+/*=========================================================
+                STATUS LABELS
+=========================================================*/
+
+.status-label{
+
+    -fx-fill:#8FA8BA;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:12;
+
+}
+
+
+.status-indicator{
+
+    -fx-fill:#32CD32;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:12;
+
+    -fx-font-weight:bold;
+
+}
+
+
+/*=========================================================
+                WINDOW BUTTONS
+=========================================================*/
+
+.window-button{
+
+    -fx-background-color:transparent;
+
+    -fx-border-color:rgba(179,108,255,.20);
+
+    -fx-border-radius:4;
+
+    -fx-text-fill:#AAB6C7;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:12;
+
+}
+
+
+.window-button:hover{
+
+    -fx-background-color:rgba(179,108,255,.10);
+
+    -fx-border-color:#B36CFF;
+
+    -fx-text-fill:white;
+
+}
+
+
+.close-button:hover{
+
+    -fx-background-color:rgba(255,74,74,.12);
+
+    -fx-border-color:#FF4A4A;
+
+    -fx-text-fill:#FF8A8A;
+
+}
+
+
+/*=========================================================
+                GLASS PANEL
+=========================================================*/
+
+.panel-glass{
+
+    -fx-background-color:rgba(255,255,255,.02);
+
+    -fx-background-radius:8;
+
+    -fx-border-radius:8;
+
+    -fx-border-width:1;
+
+    -fx-border-color:rgba(179,108,255,.10);
+
+}
+
+
+/*=========================================================
+                TITLES
+=========================================================*/
+
+.title-main{
+
+    -fx-fill:white;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:19;
+
+    -fx-font-weight:bold;
+
+}
+
+
+.title-secondary{
+
+    -fx-fill:#B36CFF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:13;
+
+    -fx-font-weight:bold;
+
+}
+
+
+/*=========================================================
+                TECH LINES
+=========================================================*/
+
+.tech-line{
+
+    -fx-stroke:#3A3148;
+
+    -fx-stroke-width:1;
+
+    -fx-opacity:.45;
+
+}
+
+
+.tech-line-strong{
+
+    -fx-stroke:#B36CFF;
+
+    -fx-stroke-width:1.5;
+
+    -fx-opacity:.85;
+
+}
+
+
+/*=========================================================
+                    CORE GLOW
+=========================================================*/
+
+.glow-blue{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(0,210,255,.45),
+            18,
+            .18,
+            0,
+            0
+    );
+
+}
+
+
+/*=========================================================
+                    NEXUS GLOW
+=========================================================*/
+
+.glow-purple{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(179,108,255,.48),
+            22,
+            .20,
+            0,
+            0
+    );
+
+}
+
+
+/*=========================================================
+                ONLINE GLOW
+=========================================================*/
+
+.glow-success{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(50,205,50,.45),
+            18,
+            .15,
+            0,
+            0
+    );
+
+}
+
+
+/*=========================================================
+                PROCESSING GLOW
+=========================================================*/
+
+.glow-warning{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(255,176,0,.48),
+            18,
+            .15,
+            0,
+            0
+    );
+
+}
+/*=========================================================
+                ATLAS NEXUS - STYLE.CSS
+                PART 3/3
+=========================================================*/
+
+/*=========================================================
+                    ERROR GLOW
+=========================================================*/
+
+.glow-error{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(255,74,74,.48),
+            18,
+            .15,
+            0,
+            0
+    );
+
+}
+
+
+/*=========================================================
+                    PULSE
+=========================================================*/
+
+.pulse{
+
+    -fx-opacity:.90;
+
+}
+
+.pulse:hover{
+
+    -fx-opacity:1;
+
+}
+
+
+/*=========================================================
+                    SPACING
+=========================================================*/
+
+.spacing-small{
+
+    -fx-spacing:6;
+
+}
+
+.spacing-medium{
+
+    -fx-spacing:12;
+
+}
+
+.spacing-large{
+
+    -fx-spacing:24;
+
+}
+
+
+.padding-small{
+
+    -fx-padding:8;
+
+}
+
+.padding-medium{
+
+    -fx-padding:15;
+
+}
+
+.padding-large{
+
+    -fx-padding:25;
+
+}
+
+
+/*=========================================================
+                HUD SUPPORT
+=========================================================*/
+
+.hud-text{
+
+    -fx-fill:white;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:20;
+
+    -fx-font-weight:bold;
+
+}
+
+
+.hud-subtext{
+
+    -fx-fill:#B36CFF;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:11;
+
+    -fx-font-weight:bold;
+
+}
+
+
+.hud-panel{
+
+    -fx-background-color:rgba(255,255,255,.015);
+
+    -fx-background-radius:10;
+
+    -fx-border-radius:10;
+
+    -fx-border-width:1;
+
+    -fx-border-color:rgba(179,108,255,.12);
+
+}
+
+
+.hud-value{
+
+    -fx-fill:white;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:13;
+
+    -fx-font-weight:bold;
+
+}
+
+
+.hud-caption{
+
+    -fx-fill:#9FA9B8;
+
+    -fx-font-family:"Consolas";
+
+    -fx-font-size:11;
+
+}
+
+
+/*=========================================================
+                MODE COLORS
+=========================================================*/
+
+.mode-core{
+
+    -fx-text-fill:#00D2FF;
+
+}
+
+
+.mode-nexus{
+
+    -fx-text-fill:#B36CFF;
+
+}
+
+
+/*=========================================================
+                STATUS COLORS
+=========================================================*/
+
+.status-online{
+
+    -fx-text-fill:#32CD32;
+
+}
+
+
+.status-processing{
+
+    -fx-text-fill:#FFB000;
+
+}
+
+
+.status-error{
+
+    -fx-text-fill:#FF4A4A;
+
+}
+
+
+/*=========================================================
+                HOVER HELPERS
+=========================================================*/
+
+.hover-purple:hover{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(179,108,255,.35),
+            16,
+            .15,
+            0,
+            0
+    );
+
+}
+
+
+.hover-blue:hover{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(0,210,255,.30),
+            16,
+            .15,
+            0,
+            0
+    );
+
+}
+
+
+/*=========================================================
+                ANIMATION HELPERS
+=========================================================*/
+
+.opacity-low{
+
+    -fx-opacity:.60;
+
+}
+
+.opacity-medium{
+
+    -fx-opacity:.80;
+
+}
+
+.opacity-high{
+
+    -fx-opacity:1;
+
+}
+
+
+/*=========================================================
+                NEXUS HELPERS
+=========================================================*/
+
+.nexus-border{
+
+    -fx-border-color:rgba(179,108,255,.25);
+
+    -fx-border-width:1;
+
+    -fx-border-radius:8;
+
+}
+
+
+.nexus-background{
+
+    -fx-background-color:rgba(179,108,255,.03);
+
+    -fx-background-radius:8;
+
+}
+
+
+.nexus-text{
+
+    -fx-text-fill:#D9C5FF;
+
+}
+
+
+.core-text{
+
+    -fx-text-fill:#00D2FF;
+
+}
+
+
+/*=========================================================
+                FUTURE HUD STATES
+=========================================================*/
+
+.hud-online{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(50,205,50,.40),
+            22,
+            .18,
+            0,
+            0
+    );
+
+}
+
+.hud-processing{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(255,176,0,.45),
+            22,
+            .18,
+            0,
+            0
+    );
+
+}
+
+.hud-error{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(255,74,74,.45),
+            22,
+            .18,
+            0,
+            0
+    );
+
+}
+
+.hud-nexus{
+
+    -fx-effect:dropshadow(
+            gaussian,
+            rgba(179,108,255,.45),
+            24,
+            .20,
+            0,
+            0
+    );
+
+}
+
+
+/*=========================================================
+                    DESIGN NOTES
+
+    ATLAS CORE
+
+    • Identidade: Azul
+    • Online: Verde
+    • Processando: Laranja
+    • Erro: Vermelho
+
+
+    ATLAS NEXUS
+
+    • Identidade: Roxo
+    • Online: Roxo + Verde
+    • Processando: Roxo + Laranja
+    • Erro: Roxo + Vermelho
+
+
+    O roxo NÃO substitui os estados.
+    Ele representa apenas o modo da interface.
+
+=========================================================*/
+
+
+/*=========================================================
+                        END
+=========================================================*/

@@ -1,0 +1,20 @@
+{
+  "usuario.linguagem_programacao" : {
+    "key" : "usuario.linguagem_programacao",
+    "value" : "Java",
+    "category" : "PREFERENCE",
+    "importance" : 9
+  },
+  "usuario.cor_favorita" : {
+    "key" : "usuario.cor_favorita",
+    "value" : "azul",
+    "category" : "PREFERENCE",
+    "importance" : 2
+  },
+  "usuario.nome" : {
+    "key" : "usuario.nome",
+    "value" : "Arthur",
+    "category" : "IDENTITY",
+    "importance" : 10
+  }
+}
