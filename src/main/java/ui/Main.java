@@ -10,5 +10,3 @@ public class Main {
         AtlasApplication.main(args);
     }
 }
-//USAR O CHAT: ATLAS VOZ E WAKE WORD. NÃO MEXI EM NADA QUE ELE PEDIU NA
-//ÚLTIMA MENSAGEM
