@@ -1,4 +1,4 @@
-# ATLAS — Local AI Personal Assistant
+# ATLAS — Local AI Personal Assistant - Current Version
 
 A **ATLAS** é um projeto de assistente pessoal desenvolvido em **Java**, criado para estudar e aplicar conceitos de desenvolvimento de software, integração com Inteligência Artificial local, processamento de voz e automação do sistema.
 
