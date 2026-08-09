@@ -50,7 +50,7 @@ Sistema operacional:
 Distribuições testadas:
 
 - Ubuntu
-- Arch Linux (em preparação)
+- Arch Linux
 
 Dependências:
 
