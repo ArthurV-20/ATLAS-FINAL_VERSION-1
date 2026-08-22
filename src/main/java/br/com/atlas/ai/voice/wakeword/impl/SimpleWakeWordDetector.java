@@ -5,7 +5,7 @@ import br.com.atlas.ai.voice.wakeword.WakeWordDetector;
 public class SimpleWakeWordDetector implements WakeWordDetector {
 
 
-    private static final double LIMITE_VOLUME = 50;
+    private static final double LIMITE_VOLUME = 38;
 
     @Override
     public boolean detect(byte[] audio) {

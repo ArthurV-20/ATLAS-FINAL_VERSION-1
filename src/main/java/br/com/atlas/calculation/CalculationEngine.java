@@ -106,6 +106,8 @@ public class CalculationEngine {
 
         text = text.replace("dividido por", "/");
         text = text.replace("dividido", "/");
+        text = text.replace("dividir", "/");
+        text = text.replace("dividir por", "/");
 
         text = text.replace(" x ", " * ");
 

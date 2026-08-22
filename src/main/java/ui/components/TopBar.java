@@ -36,7 +36,7 @@ public class TopBar extends HBox {
         HBox leftBox = new HBox(8);
         leftBox.setAlignment(Pos.CENTER_LEFT);
 
-        modeButton = new Button("MODO: NEXUS");
+        modeButton = new Button("NEXUS");
         modeButton.getStyleClass().add("mode-button");
 
         modelText = new Text("MODELO: Qwen 2.5 7B");

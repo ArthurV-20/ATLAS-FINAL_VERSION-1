@@ -95,7 +95,6 @@ public class AIManager {
 
         }
 
-
         if(intent == IntentType.NEXUS_DISABLE){
 
             aiRouter.deactivateNexus();
@@ -106,12 +105,22 @@ public class AIManager {
 
         }
 
+        //AI ADITION
+        AIRequest requestNormalizado =
+                new AIRequest(
+                        textoNormalizado,
+                        request.getUserMessage(),
+                        request.getModel()
+                );
+
+        requestNormalizado.setIntent(intent);
 
         AIResponse localResponse =
                 localResponseManager.process(
                         intent,
-                        request
+                        requestNormalizado
                 );
+        //AI ADDITION ENDS HERE
 
 
         if(localResponse != null){

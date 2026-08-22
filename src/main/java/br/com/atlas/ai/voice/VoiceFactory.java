@@ -35,11 +35,10 @@ public class VoiceFactory {
                         engine
                 );
 
-
         PiperVoiceProvider voiceProvider =
                 new PiperVoiceProvider(
-                        "/home/srgamestv/Documentos/ToolsUbuntu/piper-env/bin/piper",
-                        "/home/srgamestv/Documentos/ToolsUbuntu/piper-models/pt_BR-faber-medium.onnx"
+                        "/usr/bin/piper-tts",
+                        "/home/srgamestv/Documents/Tools/piper/models/pt_BR-faber-medium.onnx"
                 );
 
 

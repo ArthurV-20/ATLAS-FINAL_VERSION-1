@@ -66,15 +66,15 @@ public class PiperTTS implements TextToSpeechEngine {
                                 process.getInputStream()
                         )
                 );
-
+        System.out.println("[PIPER OUTPUT] Finalizado");
 
         while(reader.readLine() != null){
 
         }
+        int exitCode = process.waitFor();
 
-
-
-        process.waitFor();
+        System.out.println("[PIPER EXIT CODE] " + exitCode);
+        //process.waitFor();
 
 
     }

@@ -1,5 +1,7 @@
 #!/bin/bash
-
+export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+export JAVA_TOOL_OPTIONS="-Dglass.gtk.uiScale=1.5"
 echo "================================"
 echo "        Iniciando ATLAS"
 echo "================================"

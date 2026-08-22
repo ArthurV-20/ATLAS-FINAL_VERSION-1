@@ -275,12 +275,12 @@ public class PiperVoiceProvider implements VoiceProvider {
     private void warmupAudio()
             throws Exception {
 
-
+//SILENCIO DA ATLAS
         Process warmup =
                 new ProcessBuilder(
                         "aplay",
                         "-q",
-                        "/home/srgamestv/Documentos/JAVA PROJECTS/ATLAS/silence.wav"
+                        "/home/srgamestv/ATLAS-VERSION-1/silence.wav"
                 ).start();
 
 

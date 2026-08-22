@@ -8,10 +8,12 @@ import br.com.atlas.ai.voice.*;
 import br.com.atlas.core.AtlasCore;
 import javafx.application.Application;
 import javafx.concurrent.Task;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.layout.Priority;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import ui.components.*;
@@ -115,14 +117,15 @@ public class AtlasApplication extends Application {
                     bottomInput
             );
 
+            Rectangle2D screen =
+                    Screen.getPrimary().getVisualBounds();
+
             Scene scene =
                     new Scene(
                             root,
-                            1280,
-                            720
+                            screen.getWidth(),
+                            screen.getHeight()
                     );
-
-
             String css =
                     getClass()
                             .getResource("/style.css")
