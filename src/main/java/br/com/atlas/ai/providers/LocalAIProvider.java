@@ -6,8 +6,6 @@ import br.com.atlas.ai.client.StreamListener;
 import br.com.atlas.ai.parser.AIResponseParser;
 import br.com.atlas.ai.router.AIModelRouter;
 import br.com.atlas.ai.router.IntentType;
-import br.com.atlas.ai.router.AIModelType;
-import br.com.atlas.ai.streaming.AtlasStreamListener;
 
 public class LocalAIProvider implements AIProvider {
 
@@ -134,7 +132,7 @@ public class LocalAIProvider implements AIProvider {
 
         if(nexusMode){
                     //ou o de 7B
-            return "qwen2.5:7b";
+            return "qwen3.5:4b";
 
         }
 

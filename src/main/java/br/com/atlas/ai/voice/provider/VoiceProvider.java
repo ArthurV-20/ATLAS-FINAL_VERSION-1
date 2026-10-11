@@ -6,7 +6,7 @@ public interface VoiceProvider {
     void speak(String text) throws Exception;
 
 
-    // Inicia uma sessão de streaming, e aqui eu deixei pra o novo método
+    // Isso aqui inicia uma sessão de streaming, e aqui eu deixei pra o novo método
     default void startStream() throws Exception {
 
     }

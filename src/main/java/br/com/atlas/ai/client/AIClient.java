@@ -36,17 +36,17 @@ public class AIClient {
   "model":"%s",
   "prompt":"%s",
   "stream":false,
+  "think":false,
   "keep_alive":"12h",
   "options":{
     "temperature":0.2,
     "num_predict":3000,
-    "num_thread":8,
+    "num_thread":6,
     "num_ctx":1500,
     "num_batch":128
   }
 }
 """.formatted(model, escapedPrompt);
-
         HttpRequest request =
                 HttpRequest.newBuilder()
                         .uri(URI.create(endpoint))
@@ -107,6 +107,7 @@ public class AIClient {
   "model":"%s",
   "prompt":"%s",
   "stream":true,
+  "think":false,
   "keep_alive":"1h",
   "options":{
     "temperature":0.2,
@@ -117,7 +118,6 @@ public class AIClient {
   }
 }
 """.formatted(model, escapedPrompt);
-
 
 
         HttpRequest request =

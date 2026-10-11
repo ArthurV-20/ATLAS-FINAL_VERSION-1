@@ -121,5 +121,4 @@ public class CalculationEngine {
 
         return text;
     }
-    //eu vou mexer nisso. Falar com o chat
 }

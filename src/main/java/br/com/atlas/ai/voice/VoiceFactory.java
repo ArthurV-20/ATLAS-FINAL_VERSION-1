@@ -38,7 +38,7 @@ public class VoiceFactory {
         PiperVoiceProvider voiceProvider =
                 new PiperVoiceProvider(
                         "/usr/bin/piper-tts",
-                        "/home/srgamestv/Documents/Tools/piper/models/pt_BR-faber-medium.onnx"
+                        "/home/srgamestv/Documents/Tools/piper/models/pt_BR-cadu-medium.onnx"
                 );
 
 
