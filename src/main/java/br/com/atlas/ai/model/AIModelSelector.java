@@ -13,7 +13,7 @@ public class AIModelSelector {
                  CLOSE_APPLICATION,
                  SEARCH -> "qwen2.5:3b";
 
-            default -> "qwen2.5:7b";
+            default -> "qwen3.5:4b";
 
         };
 
